@@ -1,3 +1,6 @@
+/**
+ * File app.js
+ */
 const app = Vue.createApp({
   data() {
     return {
