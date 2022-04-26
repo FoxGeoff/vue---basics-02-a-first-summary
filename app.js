@@ -1,8 +1,9 @@
 /**
- * File app.js
+ * File app.js 
  */
 const app = Vue.createApp({
-  data() {
+  //data: function() {...}
+  data:() => {
     return {
       courseGoalA: 'Finish the course and learn Vue!',
       courseGoalB: 'Master Vue and build amazing apps!',
